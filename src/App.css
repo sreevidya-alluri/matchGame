@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.match-game-container {
+  background-color: #2c0e3a;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.image-big {
+  margin-left: 20px;
+}
+.tabs-list {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  list-style-type: none;
+  padding-right: 200px;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.image-tiny {
+  height: 10vh;
+  width: 10vw;
+}
+.list-images {
+  flex-direction: row;
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.images-list {
+  flex-direction: row;
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  flex-wrap: wrap;
+}
+.list-item-category {
+  margin-right: 70px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+.navbar {
+  background-color: #cf60c8;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  align-items: center;
+}
+.whole-container {
+  background-color: #2c0e3a;
+}
+.match-card-logo {
+  height: 10vh;
+  width: 40vw;
+  display: flex;
+  justify-content: flex-start;
+}
+.timer-image {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+}
+.score-text {
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 300px;
+}
